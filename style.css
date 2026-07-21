@@ -205,3 +205,41 @@ footer p{
 .why .card{
     border-top:5px solid #d60000;
 }
+/* ===== MOBILE ===== */
+@media (max-width:768px){
+
+header .container{
+    flex-direction:column;
+    gap:15px;
+}
+
+nav{
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:14px;
+}
+
+.hero h1{
+    font-size:42px;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+.btn,
+.btn-red{
+    display:block;
+    width:100%;
+    text-align:center;
+}
+
+.grid{
+    grid-template-columns:1fr;
+}
+
+.container{
+    width:95%;
+}
+
+}
