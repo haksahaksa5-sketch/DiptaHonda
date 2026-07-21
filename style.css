@@ -196,24 +196,12 @@ footer h3{
 footer p{
     margin:8px 0;
 }
-/* ===== MOBILE ===== */
-
-@media (max-width:768px){
-
-nav{
-    display:none;
+.why{
+    background:#fff;
 }
-
-.hero{
-    padding:60px 20px;
+.why .card{
+    text-align:center;
 }
-
-.hero h1{
-    font-size:38px;
-}
-
-.hero p{
-    font-size:18px;
-}
-
+.why .card{
+    border-top:5px solid #d60000;
 }
